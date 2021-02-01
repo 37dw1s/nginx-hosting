@@ -1,0 +1,107 @@
+/*
+ * Globals
+ */
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+}
+
+/*
+ * Base structure-------------------------------------
+ */
+html,
+body {
+  height: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* 
+*cover---------------------------------------------- 
+*/
+.cover {
+  background: #222 url(../img/cover.jpg) no-repeat;
+  background-size: cover;
+  color: white;
+  height: 100%;
+  text-align: center;
+}
+
+#cover-content {
+  max-width: 100%;
+}
+
+/* hometown */
+#hometown {
+  color: black;
+  padding: 2rem 0rem;
+}
+.para {
+  padding: 1rem 1rem;
+}
+/* 
+*intro------------------------------------------------------------------- 
+*/
+/* .intro-content {
+    padding: 5rem 12rem;
+} */
+.intropadding {
+  padding: 5rem 0rem;
+}
+
+/*
+ * Header
+ */
+
+.nav-masthead .nav-link {
+  padding: 0.25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: transparent;
+  border-bottom: 0.25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, 0.25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+/* .container {
+    width: auto;
+    max-width: 680px;
+    padding: 0 15px;
+  } */
+
+/* ------------------------page 2------------------------- */
+
+/* ----------------------famous-IT-people--------------------- */
+#famous-IT-people {
+  background-size: cover;
+  background: url("../img/tech.jpg") center center;
+}
+
+.section-content {
+  padding: 5rem 0;
+}
+.bg {
+  background: rgba(0, 0, 0, 0.5);
+}
